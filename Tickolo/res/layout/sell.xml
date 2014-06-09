@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     
+    <!-- Name -->
+    <TextView android:id="@+id/name"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:text = "Event Name" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1" 
+        android:textSize="30px" />
+    
+    </LinearLayout>
+    
+
+    
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     
+    <!-- Name -->
+    <TextView android:id="@+id/date"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:text = "YY-MM-DD" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:ems="10"
+        android:inputType="date" 
+        android:textSize="30px" />
+     
+    
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     
+    <!-- Name -->
+    <TextView android:id="@+id/section"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:text = "Section" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1" 
+        android:textSize="30px" />
+    
+    </LinearLayout>
+	
+   <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     
+    <!-- Name -->
+    <TextView android:id="@+id/row"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:text = "Row" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1" 
+        android:textSize="30px" />
+    
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     
+    <!-- Name -->
+    <TextView android:id="@+id/number"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:text = "# of Seats" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1" 
+        android:textSize="30px" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     
+    <!-- Name -->
+    <TextView android:id="@+id/price"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:text = "Price" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1" 
+        android:textSize="30px"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     
+    <!-- Name -->
+    <TextView android:id="@+id/fvalue"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:text = "Face Value" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1" 
+        android:textSize="30px" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     
+    <!-- Name -->
+    <TextView android:id="@+id/details"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:text = "Details" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1" 
+        android:textSize="30px"/>
+    
+    </LinearLayout>
+
+    <Button
+        android1:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="10dip"
+        android1:text="Submit" />
+  
+</LinearLayout>

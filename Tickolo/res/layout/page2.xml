@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+    <!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/eventHeading"
+            android:text="Column 1, 2, 3" 
+            android:layout_span = "2"
+            android:layout_column = "1"/>
+        <TextView
+            android:id="@+id/eventDate"
+            android:text="Column 1, 2, 3"
+        	android:layout_span = "2"
+        	android:layout_column = "4"/>
+ 
+    </TableRow>
+ 
+    <!-- just draw a red line -->
+    <View
+        android:layout_height="2dip"
+        android:background="#FF0000" />
+ 
+    <!-- 3 columns -->
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffff0000"
+        android:padding="5dip" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:text="Section"
+            android:paddingLeft="10dip" />
+        <TextView
+            android:id="@+id/textView2"
+            android:text="Row"
+            android:paddingLeft="10dip"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:text="Quantity"
+            android:paddingLeft="10dip"/>
+        <TextView
+            android:id="@+id/textView4"
+            android:text="Price"
+            android:paddingLeft="10dip"/>
+        <TextView
+            android:id="@+id/textView5"
+            android:text="Face Value"
+            android:paddingLeft="10dip"
+            />
+    </TableRow>
+ 
+    
+ 
+</TableLayout>
